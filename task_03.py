@@ -7,7 +7,8 @@ def exception_test(arg1, arg2, arg3):
     try:
         arg1[arg2].index(arg3)
     except:
-        caught = True
+        except(TypeError, LookupError)
+        if caught = True
 
     return caught
     
